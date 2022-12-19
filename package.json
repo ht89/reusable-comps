@@ -7,6 +7,7 @@
     "build": "ng build",
     "build:striped-backgrounds:dev": "ng build ngx-striped-backgrounds --configuration development",
     "build:striped-backgrounds:prod": "ng build ngx-striped-backgrounds",
+    "publish:striped-backgrounds": "cd dist/ngx-striped-backgrounds && npm publish",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
